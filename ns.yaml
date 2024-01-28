@@ -6,10 +6,4 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: 'Delete=false'
   name: ns2-d
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  annotations:
-    argocd.argoproj.io/sync-options: 'Prune=false'
-  name: ns3-p
+
