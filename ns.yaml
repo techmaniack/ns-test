@@ -13,8 +13,3 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: 'Prune=false'
   name: ns3-p
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: ns4-none
